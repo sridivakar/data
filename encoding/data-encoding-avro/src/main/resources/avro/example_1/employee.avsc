@@ -1,0 +1,32 @@
+{
+  "namespace": "inakonda.sridivakar.data.encoding.avro.gen.example_1",
+  "name": "Employee",
+  "type": "record",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "department",
+      "type": [
+          "Department",
+          "null"
+      ]
+    },
+    {
+      "name": "phone",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "place",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  ]
+}
